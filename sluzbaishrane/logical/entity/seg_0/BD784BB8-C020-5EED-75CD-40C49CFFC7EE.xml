@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BD784BB8-C020-5EED-75CD-40C49CFFC7EE" name="Sluzba ishrane">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:43:45 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="519DCAD8-F3CB-6667-0270-03C9C60BC112" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_si" id="071F326B-FF7C-124B-9209-13E73D236472">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:43:53 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="519DCAD8-F3CB-6667-0270-03C9C60BC112" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rad_vreme" id="0D7AA3BB-3B59-395B-0E81-B3D573C17158">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:44:02 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="519DCAD8-F3CB-6667-0270-03C9C60BC112" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C8EFDC72-7A25-EA89-D54E-49ED6932E4E0" name="Sluzba ishrane PK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:43:59 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="519DCAD8-F3CB-6667-0270-03C9C60BC112" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>071F326B-FF7C-124B-9209-13E73D236472</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

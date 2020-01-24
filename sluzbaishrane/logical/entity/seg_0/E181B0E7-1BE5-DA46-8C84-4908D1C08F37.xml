@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E181B0E7-1BE5-DA46-8C84-4908D1C08F37" name="Obrok">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:27:55 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sifra_ob" id="3E4C502C-1292-9305-6081-94B0C5F0EB2A">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:28:00 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naz_ob" id="6B4720AC-1A19-83E1-307C-2F8063831FCC">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:28:06 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>5E2229AC-3238-6D13-5AD1-F637C972883D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="68BE9415-5185-066C-F28B-9FCA002BD035" name="Obrok PK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:57:27 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3E4C502C-1292-9305-6081-94B0C5F0EB2A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

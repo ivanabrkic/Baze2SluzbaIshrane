@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="446939D4-A42F-5DA7-DFAB-412854F29CA9" name="Dnevno posluzenje hrane">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:25:02 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Dnevno PH</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_ph" id="F4371BBB-0AFF-B59C-CBCC-9EC8CA8601F9">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:25:12 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kol_ph" id="57A3DD2A-5030-82CA-BA5B-90CF19775B12">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:25:20 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A7B09BC3-C7AC-19DD-2701-6DFB503B117D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dat_ph" id="CA618B0A-A78D-8401-2930-D5C005D21575">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:25:27 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>414A0033-11C2-E195-4AF8-BF50F3D00D17</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_sal" id="2E0BBFC2-CF09-671D-8D4C-EB0F02C04D0C">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:30:08 UTC</createdTime>
+<generatorID>5BEE21FC-830B-9A08-3BB3-3B885E8FB30B</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<referedAttribute>5178FF16-FE8E-4602-C839-D8A5A05FBC5D</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_res" id="112B7379-E370-97AD-031F-9547D550E364">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:30:08 UTC</createdTime>
+<generatorID>5BEE21FC-830B-9A08-3BB3-3B885E8FB30B</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<referedAttribute>1E6C00BE-F7E6-7897-1723-C7387B2574DE</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sifra_ob" id="3CAA918E-02F8-6099-194D-73F0180C19B4">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:57:28 UTC</createdTime>
+<generatorID>425C908D-275D-52B8-45D1-959EC18E0282</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<referedAttribute>3E4C502C-1292-9305-6081-94B0C5F0EB2A</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sifra_rad" id="623DA16F-4A3F-7A2A-0357-A974B68D95F9">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:13:17 UTC</createdTime>
+<generatorID>5D9F2236-15C9-6E26-FD9A-053496A23473</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<referedAttribute>70769F39-3F7C-3BD6-A7A5-17CC33B44CDC</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="753D8BFF-7F00-98DF-64C0-7DC82572D7D0" name="Dnevno posluzenje hrane PK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:25:20 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F4371BBB-0AFF-B59C-CBCC-9EC8CA8601F9</attributeRef>
+<attributeRef>2E0BBFC2-CF09-671D-8D4C-EB0F02C04D0C</attributeRef>
+<attributeRef>112B7379-E370-97AD-031F-9547D550E364</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

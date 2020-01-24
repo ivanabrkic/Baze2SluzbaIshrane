@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Mesto stanovanja" directorySegmentName="seg_0" id="94962437-5DF4-A9DE-8C21-F2889A504CAD">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:33:13 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<sourcePk>5AF99D0C-84C9-4BE2-F7EF-60B7465DE70B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C70AA50F-7655-6753-19DC-D7F958A20146</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D2EB0C1F-DBFC-44CF-D575-E8718DFE7AAD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="ulica" id="2603CA6A-1E7A-6CB2-4B48-DBF171A0B5F4">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:33:22 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>5E2229AC-3238-6D13-5AD1-F637C972883D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="br_ulice" id="B8F08469-E5C5-FC08-A9BB-6054177583CF">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:33:28 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

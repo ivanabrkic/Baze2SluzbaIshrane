@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="538FB6D2-9851-C879-0788-AE568DB00E12" name="Salter">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:22:49 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="519DCAD8-F3CB-6667-0270-03C9C60BC112" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_sal" id="5178FF16-FE8E-4602-C839-D8A5A05FBC5D">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:22:55 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="519DCAD8-F3CB-6667-0270-03C9C60BC112" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_res" id="1E6C00BE-F7E6-7897-1723-C7387B2574DE">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:29:29 UTC</createdTime>
+<generatorID>BA3E476D-CDDB-BE07-AEC1-A74820754FA5</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="519DCAD8-F3CB-6667-0270-03C9C60BC112" value="true"/>
+</engineerTo>
+<referedAttribute>2C17FCCD-7E5A-D8AF-E82F-A2B4F661D994</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D93C3B4A-123D-E68F-EFD2-75F1C538B98A" name="Salter PK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:23:02 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="519DCAD8-F3CB-6667-0270-03C9C60BC112" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5178FF16-FE8E-4602-C839-D8A5A05FBC5D</attributeRef>
+<attributeRef>1E6C00BE-F7E6-7897-1723-C7387B2574DE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

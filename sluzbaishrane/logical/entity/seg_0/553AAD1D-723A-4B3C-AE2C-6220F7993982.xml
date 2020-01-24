@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="553AAD1D-723A-4B3C-AE2C-6220F7993982" name="Stavka">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:57:52 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rbr_sta" id="D2B99169-DA29-8414-74FA-B796047A7318">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:57:56 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kol_sta" id="D498E1AA-9577-ECBC-8910-1A370CFCD69E">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:58:38 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A7B09BC3-C7AC-19DD-2701-6DFB503B117D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="iznos" id="E6ADBAAD-F9C6-EE76-EAFE-6ED2CE460D03">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:58:47 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<domain>584091EF-F0B0-76BE-849B-1BD838B9372C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_rac" id="92407E2C-BEE4-1EE8-91C8-1AB948B2D20C">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:14:51 UTC</createdTime>
+<generatorID>C8B742E9-CBC5-5790-0210-D6C0EBD72E5B</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<referedAttribute>E4CD2940-C972-641E-8DB2-1760E3AC0A43</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_kase" id="99D89250-4E3B-50BD-7D48-5EA85713C290">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:14:51 UTC</createdTime>
+<generatorID>C8B742E9-CBC5-5790-0210-D6C0EBD72E5B</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<referedAttribute>D6F76934-0887-9C3F-F7A0-919A1FBEC6E2</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dat_pv" id="D65F8D52-BD1D-17C4-5C57-8310CA3CAC6B">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:15:58 UTC</createdTime>
+<generatorID>5C490267-4E49-A259-117D-5E7ABDB4AB9E</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<referedAttribute>65A7A096-11D8-6D8A-9E21-850A70FB7C6A</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>414A0033-11C2-E195-4AF8-BF50F3D00D17</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sifra_ob" id="B6B2E61D-EB87-2EF3-43E7-55B90712C310">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:16:32 UTC</createdTime>
+<generatorID>5C490267-4E49-A259-117D-5E7ABDB4AB9E</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<referedAttribute>BAC4B6B5-2BC9-3AA9-B4EC-D643A36E76C3</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="392E51BD-166F-1C95-78D8-6E8A55D5186D" name="Stavka PK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:58:37 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D2B99169-DA29-8414-74FA-B796047A7318</attributeRef>
+<attributeRef>92407E2C-BEE4-1EE8-91C8-1AB948B2D20C</attributeRef>
+<attributeRef>99D89250-4E3B-50BD-7D48-5EA85713C290</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

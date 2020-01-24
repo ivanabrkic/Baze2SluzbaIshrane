@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5802678-56D9-7409-407F-2470251D82C5" name="Fakultet">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>86898B16-CC44-3408-6512-12DA3E353DEE</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_fak" id="AAD12AE8-B70C-8530-0B94-70CD4A88425E">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>08C6CB91-161A-1013-91E9-263AF86F232B</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naz_fak" id="64BA26B1-EE71-FA30-2453-9303933D90A8">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>4B32A8C4-54A5-C337-B938-F16A580CEF2D</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>5E2229AC-3238-6D13-5AD1-F637C972883D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="uni_id_uni" id="CC6CB0A3-F043-E983-F084-79E5884B629D">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>5C391921-D1E5-ADAB-215C-3CC00343889E</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41BBF8FE-BE4A-342B-7DBE-E751C9484CE7" referredColumn="7CCF0F5E-4660-5A47-1134-7EC1174AA48A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="157B478C-DBB2-6C62-BDA5-16E333D18E05" name="Fakultet_PK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>A4EE6B1F-1D45-94AD-5490-48A8601D3E34</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAD12AE8-B70C-8530-0B94-70CD4A88425E"/>
+<colUsage columnID="CC6CB0A3-F043-E983-F084-79E5884B629D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6CBAD4C8-BBA3-C7BC-21B2-0E3986A390E1" name="Fakultet_Univerzitet_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>9A268283-9D78-4F37-A3D3-6886722894F3</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC6CB0A3-F043-E983-F084-79E5884B629D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FBCCF19D-CEA3-62C5-B286-75CC147BA38E" name="Univerzitet">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:29:11 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_uni" id="A9B1FB12-BB01-BF62-0FBD-05196734A4F7">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:29:21 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naz_uni" id="F8593FDD-5F71-2C81-0E41-6FAA5ED9406F">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:29:29 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>5E2229AC-3238-6D13-5AD1-F637C972883D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6E7E9E6C-B84D-A211-2A00-38924C2D1485" name="Univerzitet PK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:29:33 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A9B1FB12-BB01-BF62-0FBD-05196734A4F7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

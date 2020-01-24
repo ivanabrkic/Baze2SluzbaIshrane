@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A6A9DE27-9060-64E1-4102-C39571B6F9FC" name="Kasa">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>50687048-7795-9ADE-7098-62D5E04AD428</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_kase" id="4D432DF0-9B8F-8674-6820-5E648860C2C3">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>BAF2CF8F-40FF-FBB6-4D05-672CE6A87D1B</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="29040152-AB89-29C3-9DC1-343763196C4F" name="Kasa_PK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>5D3B24E0-F45A-C2BD-4AB2-4C6228024C00</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D432DF0-9B8F-8674-6820-5E648860C2C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

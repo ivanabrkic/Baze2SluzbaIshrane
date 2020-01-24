@@ -1,0 +1,205 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="F0BA3C8C-D8B2-E92D-3D1F-465A737B11E7" name="Menza">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 17:47:08 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<ordsAlias>view_13</ordsAlias>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT
+    dnevno_posluzenje_hrane.kol_ph,
+    dnevno_posluzenje_hrane.dat_ph,
+    obrok.naz_ob,
+    salter.id_sal,
+    restoran.naz_res,
+    radnik.prez_rad,
+    radnik.ime_rad,
+    radnik_u_menzi.sifra_rad
+FROM
+         dnevno_posluzenje_hrane
+    INNER JOIN obrok ON obrok.sifra_ob = dnevno_posluzenje_hrane.ob_sifra_ob
+    INNER JOIN radnik_u_menzi ON radnik_u_menzi.sifra_rad = dnevno_posluzenje_hrane.rad_u_menzi_sifra_rad
+    INNER JOIN radnik ON radnik.sifra_rad = radnik_u_menzi.sifra_rad
+    INNER JOIN salter ON salter.id_sal = dnevno_posluzenje_hrane.sal_id_sal
+    INNER JOIN restoran ON restoran.id_res = salter.res_id_res]]></userDefinedSQL>
+<parsed>true</parsed>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="kol_ph" id="D748839D-B6E1-E8F6-36F6-0B6CC7AE684E">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 17:51:20 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<headerAlias>kol_ph</headerAlias>
+<reference>false</reference>
+<referencedColumn>C03D8553-D8B5-B960-8EB9-62DAFBF882D6</referencedColumn>
+<table>C36BEDD3-B8D6-4D48-2E0F-BB487E83BFB1</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="dat_ph" id="F4074D36-7B43-73F0-9314-61438E214204">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 17:51:20 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATE</dataType>
+<headerAlias>dat_ph</headerAlias>
+<reference>false</reference>
+<referencedColumn>327099FE-FB68-7909-949C-139791416387</referencedColumn>
+<table>C36BEDD3-B8D6-4D48-2E0F-BB487E83BFB1</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="naz_ob" id="0E84C7AD-EF17-F3AD-B20F-27E2BBBADA34">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 17:51:20 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (30 CHAR)</dataType>
+<headerAlias>naz_ob</headerAlias>
+<reference>false</reference>
+<referencedColumn>9C3C484D-E9EF-5211-2001-B02E6A32E9D0</referencedColumn>
+<table>CB3C5D30-EAED-33F7-ADA0-F4CA185CCD9D</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="id_sal" id="75FAB088-9DE7-0B34-9C2C-9C5C178EB828">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 17:51:20 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<headerAlias>id_sal</headerAlias>
+<reference>false</reference>
+<referencedColumn>DB8FCE2A-64EF-C38C-AA18-546A2AFD743F</referencedColumn>
+<table>B89B2AD3-10CC-7F6A-7A41-DB3D0AFA6FD8</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="naz_res" id="9F920790-9C62-18F6-9A8A-3D9C3370CE39">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 17:51:20 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (30 CHAR)</dataType>
+<headerAlias>naz_res</headerAlias>
+<reference>false</reference>
+<referencedColumn>49072C83-285A-1089-4797-C64883571D6A</referencedColumn>
+<table>9DAEB56C-865E-5111-F7F8-9AA131A8EDCC</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="prez_rad" id="79FCE3C2-45DC-ABAF-89F6-569429A148C2">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 17:51:20 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (30 CHAR)</dataType>
+<headerAlias>prez_rad</headerAlias>
+<reference>false</reference>
+<referencedColumn>546444D7-91A7-FC51-86D9-20DF7EF6B535</referencedColumn>
+<table>2EA8C762-B537-5543-BE1F-3ECE964B8BC1</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ime_rad" id="7D18972C-B0CE-1D23-7DD1-E597AFAB06C3">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 17:51:20 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (30 CHAR)</dataType>
+<headerAlias>ime_rad</headerAlias>
+<reference>false</reference>
+<referencedColumn>F41D1989-7610-D0C7-BD7A-D59359AAE3AA</referencedColumn>
+<table>2EA8C762-B537-5543-BE1F-3ECE964B8BC1</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="sifra_rad" id="00D410EC-9BD0-7FDC-83C7-302FE143230F">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 18:05:27 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<headerAlias>sifra_rad</headerAlias>
+<reference>false</reference>
+<referencedColumn>805DA154-696B-3FA7-3F23-B70623CD4914</referencedColumn>
+<table>A6D7A6BB-2F1F-4F2C-AFA7-B7825277C190</table>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="C36BEDD3-B8D6-4D48-2E0F-BB487E83BFB1">
+<container>true</container>
+<tableName>Dnevno_posluzenje_hrane</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="CB3C5D30-EAED-33F7-ADA0-F4CA185CCD9D">
+<container>true</container>
+<tableName>Obrok</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="A6D7A6BB-2F1F-4F2C-AFA7-B7825277C190">
+<container>true</container>
+<tableName>Radnik_u_menzi</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="2EA8C762-B537-5543-BE1F-3ECE964B8BC1">
+<container>true</container>
+<tableName>Radnik</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="B89B2AD3-10CC-7F6A-7A41-DB3D0AFA6FD8">
+<container>true</container>
+<tableName>Salter</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="9DAEB56C-865E-5111-F7F8-9AA131A8EDCC">
+<container>true</container>
+<tableName>Restoran</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="C03D8553-D8B5-B960-8EB9-62DAFBF882D6">
+<columnName>kol_ph</columnName>
+<tableName>Dnevno_posluzenje_hrane</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="327099FE-FB68-7909-949C-139791416387">
+<columnName>dat_ph</columnName>
+<tableName>Dnevno_posluzenje_hrane</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="9C3C484D-E9EF-5211-2001-B02E6A32E9D0">
+<columnName>naz_ob</columnName>
+<tableName>Obrok</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="DB8FCE2A-64EF-C38C-AA18-546A2AFD743F">
+<columnName>id_sal</columnName>
+<tableName>Salter</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="49072C83-285A-1089-4797-C64883571D6A">
+<columnName>naz_res</columnName>
+<tableName>Restoran</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="546444D7-91A7-FC51-86D9-20DF7EF6B535">
+<columnName>prez_rad</columnName>
+<tableName>Radnik</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="F41D1989-7610-D0C7-BD7A-D59359AAE3AA">
+<columnName>ime_rad</columnName>
+<tableName>Radnik</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="867D3B3B-F705-33FE-8640-F9BF2ABDD2F2">
+<columnName>sal_id_sal</columnName>
+<tableName>Dnevno_posluzenje_hrane</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="4627F616-AE4C-AC03-CC29-22E3ACAAA79A">
+<columnName>res_id_res</columnName>
+<tableName>Salter</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="B6EDD238-52BC-1CB9-431E-3AF6399BAB73">
+<columnName>sifra_ob</columnName>
+<tableName>Obrok</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="77798DA8-8AA9-575F-DCCF-08441EF59A57">
+<columnName>id_res</columnName>
+<tableName>Restoran</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="A5C92CE1-A2BA-474E-5493-32D5358E4682">
+<columnName>ob_sifra_ob</columnName>
+<tableName>Dnevno_posluzenje_hrane</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="5AF6827A-DC98-5DA8-23E2-3265C886DBC2">
+<columnName>rad_u_menzi_sifra_rad</columnName>
+<tableName>Dnevno_posluzenje_hrane</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="6436F5C5-310C-66CC-A3AB-395E56119F02">
+<columnName>sifra_rad</columnName>
+<tableName>Radnik</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

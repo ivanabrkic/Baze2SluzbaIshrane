@@ -1,0 +1,368 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1FB4C4A8-DE9B-D1C5-A87C-42FFEE89B755" name="Studentska_kartica">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>D2EB0C1F-DBFC-44CF-D575-E8718DFE7AAD</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="br_kar" id="843FC48F-AEE5-6470-FD7F-0E2093066953">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>8EDF40AB-528C-56DB-CE40-08F9A40F4D3D</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ISIC_br" id="5E8035B3-88CB-55A2-C952-CB167065BDBF">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>482469D6-4163-499B-B38B-5FFCA8296571</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>5E2229AC-3238-6D13-5AD1-F637C972883D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JMBG_stud" id="42A3781F-2DEE-0D50-B876-238EF3AF622A">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>1979D3CE-8451-B227-AAE5-806FDD834FDA</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>E5D17B92-E191-5883-6FFF-C6EBA99D6683</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="br_ind" id="926AA22D-93DE-4B9D-860C-D3C43072342F">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>6B600F65-91A6-9100-9A39-0127CB06909F</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>5E2229AC-3238-6D13-5AD1-F637C972883D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="god_upisa" id="27D16576-0B21-F5B1-631A-5B2B62CD1B55">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>05B524CF-C9F1-F97F-F484-CF909BF48B96</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prez_stud" id="72B374BF-E398-EE2B-C300-1FF9B2EBAB9F">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>560094E2-DA93-1347-64E6-395A0D0E4A39</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>5E2229AC-3238-6D13-5AD1-F637C972883D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dat_rodj_stud" id="32250C18-03D5-4DC4-F8D6-12869954B0C6">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>A8FBE2E1-ABF0-3331-9A55-8AC14EFACE50</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>414A0033-11C2-E195-4AF8-BF50F3D00D17</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dat_vaz_kar" id="8EA57CBD-2F2E-1301-F701-265E7A255DAE">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>2C13C371-012C-782A-866C-3425711F2CFF</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>414A0033-11C2-E195-4AF8-BF50F3D00D17</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime_stud" id="FC8F867B-5D5E-87CF-38AF-93B500FBC1D1">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>D2CB349E-4633-8171-352A-9B09F431447C</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>5E2229AC-3238-6D13-5AD1-F637C972883D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dat_vadj_kar" id="E61DA33E-3598-3E9B-777E-4D546340F7EE">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>0C4B221D-2CBD-B6A9-BC66-15AF971FEE3A</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>414A0033-11C2-E195-4AF8-BF50F3D00D17</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_stud_id_st" id="7D4C30D1-A748-EC67-1E1B-C3B7C838295F">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>AB690C6C-B005-7E67-60A0-D65C54A50455</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D88FB998-D326-0211-213C-A04AA04A4E66" referredColumn="59EC8C90-C070-EA9F-1E2A-749E4A11F06E"/>
+</associations>
+</Column>
+<Column name="id_grada_MR" id="499EBB2C-2387-5677-4FF7-3A19FB833FE3">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>495160AE-517E-C861-63CF-0796D7234B75</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5030B5AB-3809-55FE-2F6B-04F89CE7D5C0" referredColumn="B9AA98B9-849B-0C1C-D9A0-16E736A80D98"/>
+</associations>
+</Column>
+<Column name="id_drzave_MR" id="48336D69-0133-F1FE-A108-5D0D3FE05D5B">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>7C89FCDA-A743-A069-1A73-CA3EE67D16F4</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5030B5AB-3809-55FE-2F6B-04F89CE7D5C0" referredColumn="689FF33B-0517-6816-26D7-FE4752529153"/>
+</associations>
+</Column>
+<Column name="id_grada_MS" id="2E53163B-B76B-7F8D-B5E2-CA3CE8E6C2D1">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>3E980E32-9683-6C6A-172F-96169CE6D75F</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7AC205C6-5414-767F-F757-32151B498ABF" referredColumn="B9AA98B9-849B-0C1C-D9A0-16E736A80D98"/>
+</associations>
+</Column>
+<Column name="id_drzave_MS" id="53607763-AEA6-AE42-7374-6B812B10A8F8">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>85E17F62-4C44-E99C-8E10-E9FC17DECFF9</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7AC205C6-5414-767F-F757-32151B498ABF" referredColumn="689FF33B-0517-6816-26D7-FE4752529153"/>
+</associations>
+</Column>
+<Column name="smer_sifra_smera" id="D3A4C7CC-2AFE-9065-F406-0DF862CB4331">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>54337C31-20AC-9329-DF3D-195E83B796FB</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ADB01DD0-F201-12EF-F7EE-1E22A9DCA642" referredColumn="641CF7EE-C9F6-4037-5872-41A23BFC85D7"/>
+</associations>
+</Column>
+<Column name="smer_fak_id_fak" id="F2308E36-AB07-AAEB-419D-2A90D4A9986E">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>39DEDD35-F0E7-EC8A-890F-0689FB9BEDCC</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ADB01DD0-F201-12EF-F7EE-1E22A9DCA642" referredColumn="09FD82A4-D812-7694-D568-E6AAED116CDA"/>
+</associations>
+</Column>
+<Column name="smer_fak_uni_id_uni" id="F2D0BEB5-7509-F2D5-6D6D-8FE964DBAE38">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>F25D5257-DB80-3E2B-3857-A78E2763834A</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ADB01DD0-F201-12EF-F7EE-1E22A9DCA642" referredColumn="11918E2B-573A-5F4D-4DE2-620F2202ADB9"/>
+</associations>
+</Column>
+<Column name="dat_vaz_st" id="3F978213-4F9E-3969-3B97-A06CEE3B8A6D">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>67C9C220-44A7-70A1-223B-AFD7A802DD80</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>414A0033-11C2-E195-4AF8-BF50F3D00D17</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>D88FB998-D326-0211-213C-A04AA04A4E66</dependOnForeignKeyID>
+</Column>
+<Column name="ulica" id="00719129-928C-38F4-C517-E693C5F42FE0">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>2603CA6A-1E7A-6CB2-4B48-DBF171A0B5F4</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>5E2229AC-3238-6D13-5AD1-F637C972883D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>7AC205C6-5414-767F-F757-32151B498ABF</dependOnForeignKeyID>
+</Column>
+<Column name="br_ulice" id="9D957DC5-FA9E-9703-F887-E0C225462731">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>B8F08469-E5C5-FC08-A9BB-6054177583CF</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>7AC205C6-5414-767F-F757-32151B498ABF</dependOnForeignKeyID>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CDFD2727-DBDC-D79D-FAC4-0023BCD4CA3F" name="Studentska_kartica_PK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>69D5B3B5-AFF2-8607-2FEA-BCA36CADEEAC</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="843FC48F-AEE5-6470-FD7F-0E2093066953"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04AD740A-44D8-05F5-9787-A79533866A15" name="Stud_kartica_ISIC_br_UN">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>8B25EAE2-A234-94D4-CC3A-B385DB48CF57</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E8035B3-88CB-55A2-C952-CB167065BDBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DAD9C051-5FAB-7D7A-F741-2CCD4AA55519" name="Stud_kartica_JMBG_UN">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>5D5FA016-CD14-1798-229A-D7604A0BC838</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42A3781F-2DEE-0D50-B876-238EF3AF622A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4ADC7BD8-227D-085C-F601-CE91A38DE57D" name="Stud_kartica_Stat_stud_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>0C8872AE-0E12-CDBB-6F72-225508CB4612</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D4C30D1-A748-EC67-1E1B-C3B7C838295F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A109462-762F-B83E-73E3-FA1E5AAAFC83" name="Stud_kartica_Grad_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>33C175FF-E388-F672-DB1E-444DD0952EC6</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="499EBB2C-2387-5677-4FF7-3A19FB833FE3"/>
+<colUsage columnID="48336D69-0133-F1FE-A108-5D0D3FE05D5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B433E611-7A04-4261-2818-B6FCEC5E44C8" name="Stud_kartica_Grad_FKv2">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>94962437-5DF4-A9DE-8C21-F2889A504CAD</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E53163B-B76B-7F8D-B5E2-CA3CE8E6C2D1"/>
+<colUsage columnID="53607763-AEA6-AE42-7374-6B812B10A8F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6CB004E-1C60-16AF-81C1-3A018B178C29" name="Stud_kartica_Smer_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>48FE4635-AD06-A9B2-4E88-A4E18B766A97</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3A4C7CC-2AFE-9065-F406-0DF862CB4331"/>
+<colUsage columnID="F2308E36-AB07-AAEB-419D-2A90D4A9986E"/>
+<colUsage columnID="F2D0BEB5-7509-F2D5-6D6D-8FE964DBAE38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

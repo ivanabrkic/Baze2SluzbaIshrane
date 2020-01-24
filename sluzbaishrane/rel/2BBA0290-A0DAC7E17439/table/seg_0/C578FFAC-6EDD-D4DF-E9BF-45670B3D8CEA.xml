@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C578FFAC-6EDD-D4DF-E9BF-45670B3D8CEA" name="Status_studenta">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>3675B313-4CEE-14B1-3534-ED6F3F4018D1</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_st" id="59EC8C90-C070-EA9F-1E2A-749E4A11F06E">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>9CA32AC9-F7F0-DD14-5925-FCDAF8D81F5F</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis_st" id="156B42AE-40F5-6E7D-BD83-7CE09AB259E2">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>C935A7CF-36E9-F204-149B-9A2EAA42BE75</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naz_st" id="BA9D0330-E62B-EDF0-8F0C-C5FA94968C20">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>FE084BA8-7F57-EE41-23E8-D011600D7015</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>5E2229AC-3238-6D13-5AD1-F637C972883D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AFC8CACF-4A4E-6769-C334-CD7E2D18B826" name="Status_studenta_PK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>883CBA67-40B1-AA8A-64DD-B1670AB93A04</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59EC8C90-C070-EA9F-1E2A-749E4A11F06E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

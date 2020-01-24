@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="40FBB5F4-E0D9-B107-7D72-77B592CCC281" containerWithKeyObject="A6D7A6BB-2F1F-4F2C-AFA7-B7825277C190" localFKIndex="BDD3DEBF-15B0-1692-3C34-01BA698F426A" name="Radnik_u_menzi_Radnik_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>DA246E80-03FC-D0ED-2D3D-717C296A29EE</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<referredTableLongName>Radnik</referredTableLongName>
+<arc>0567D89C-73BA-6FD6-ADBE-FF7D72BDBDCB</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2EA8C762-B537-5543-BE1F-3ECE964B8BC1</referredTableID>
+<keyObject>7F31DEC9-CA6D-A36E-9A0B-DA4A7143367D</keyObject>
+<referredKeyID>7F31DEC9-CA6D-A36E-9A0B-DA4A7143367D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sifra_rad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorColumn>6436F5C5-310C-66CC-A3AB-395E56119F02</discriminatorColumn>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

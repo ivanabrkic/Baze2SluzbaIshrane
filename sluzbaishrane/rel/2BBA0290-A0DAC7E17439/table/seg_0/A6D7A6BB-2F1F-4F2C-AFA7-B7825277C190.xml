@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A6D7A6BB-2F1F-4F2C-AFA7-B7825277C190" name="Radnik_u_menzi">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>9D820322-C1EF-405D-FD1A-34A35BE2A270</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sifra_rad" id="805DA154-696B-3FA7-3F23-B70623CD4914">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>70769F39-3F7C-3BD6-A7A5-17CC33B44CDC</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+<associations>
+<colAssociation fkAssociation="40FBB5F4-E0D9-B107-7D72-77B592CCC281" referredColumn="6436F5C5-310C-66CC-A3AB-395E56119F02"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D326723-C50E-FE27-9EE6-DEE9F18219D0" name="Radnik_u_menzi_PK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>7A295858-25BF-A3E0-A654-2E031B0E37CC</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="805DA154-696B-3FA7-3F23-B70623CD4914"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BDD3DEBF-15B0-1692-3C34-01BA698F426A" name="Radnik_u_menzi_Radnik_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>DA246E80-03FC-D0ED-2D3D-717C296A29EE</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="805DA154-696B-3FA7-3F23-B70623CD4914"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

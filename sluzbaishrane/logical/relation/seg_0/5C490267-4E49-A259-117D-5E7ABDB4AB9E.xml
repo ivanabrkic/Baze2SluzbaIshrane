@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Ima obrok" directorySegmentName="seg_0" id="5C490267-4E49-A259-117D-5E7ABDB4AB9E">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:15:58 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="519DCAD8-F3CB-6667-0270-03C9C60BC112" value="true"/>
+</engineerTo>
+<sourcePk>9EA489A4-45EB-8953-3F88-8C1CE4F0FF19</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>20609C91-957C-61EB-982D-01FA1B0FE681</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>553AAD1D-723A-4B3C-AE2C-6220F7993982</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

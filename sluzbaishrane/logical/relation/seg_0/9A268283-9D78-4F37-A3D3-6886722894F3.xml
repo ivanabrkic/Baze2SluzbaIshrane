@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pripadav3" directorySegmentName="seg_0" id="9A268283-9D78-4F37-A3D3-6886722894F3">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:34:55 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="519DCAD8-F3CB-6667-0270-03C9C60BC112" value="true"/>
+</engineerTo>
+<sourcePk>6E7E9E6C-B84D-A211-2A00-38924C2D1485</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FBCCF19D-CEA3-62C5-B286-75CC147BA38E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>86898B16-CC44-3408-6512-12DA3E353DEE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

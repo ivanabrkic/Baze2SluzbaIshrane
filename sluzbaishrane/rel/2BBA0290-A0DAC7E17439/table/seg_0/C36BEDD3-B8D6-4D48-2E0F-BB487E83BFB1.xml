@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C36BEDD3-B8D6-4D48-2E0F-BB487E83BFB1" name="Dnevno_posluzenje_hrane">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>446939D4-A42F-5DA7-DFAB-412854F29CA9</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<abbreviation>Dnevno PH</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ph" id="CD6A3D45-7645-3158-754D-5C58334D9A67">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>F4371BBB-0AFF-B59C-CBCC-9EC8CA8601F9</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kol_ph" id="C03D8553-D8B5-B960-8EB9-62DAFBF882D6">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>57A3DD2A-5030-82CA-BA5B-90CF19775B12</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A7B09BC3-C7AC-19DD-2701-6DFB503B117D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dat_ph" id="327099FE-FB68-7909-949C-139791416387">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>CA618B0A-A78D-8401-2930-D5C005D21575</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>414A0033-11C2-E195-4AF8-BF50F3D00D17</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sal_id_sal" id="867D3B3B-F705-33FE-8640-F9BF2ABDD2F2">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>2E0BBFC2-CF09-671D-8D4C-EB0F02C04D0C</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="335F9042-CFE1-670B-6068-CD3D5E26EBA0" referredColumn="DB8FCE2A-64EF-C38C-AA18-546A2AFD743F"/>
+</associations>
+</Column>
+<Column name="sal_id_res" id="858F90FE-4DD9-BCB8-C068-B15273280D5E">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>112B7379-E370-97AD-031F-9547D550E364</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="335F9042-CFE1-670B-6068-CD3D5E26EBA0" referredColumn="4627F616-AE4C-AC03-CC29-22E3ACAAA79A"/>
+</associations>
+</Column>
+<Column name="ob_sifra_ob" id="A5C92CE1-A2BA-474E-5493-32D5358E4682">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>3CAA918E-02F8-6099-194D-73F0180C19B4</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EAD02F92-9583-6DA0-C3D7-BF2538EF8A6A" referredColumn="B6EDD238-52BC-1CB9-431E-3AF6399BAB73"/>
+</associations>
+</Column>
+<Column name="rad_u_menzi_sifra_rad" id="5AF6827A-DC98-5DA8-23E2-3265C886DBC2">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>623DA16F-4A3F-7A2A-0357-A974B68D95F9</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACB4965A-EFE8-4ABA-632C-2C664CEB4A2F" referredColumn="805DA154-696B-3FA7-3F23-B70623CD4914"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0BB50D73-655E-5D46-BE39-C6DA1E17A2FB" name="Dnevno_posluzenje_hrane_PK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>753D8BFF-7F00-98DF-64C0-7DC82572D7D0</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD6A3D45-7645-3158-754D-5C58334D9A67"/>
+<colUsage columnID="867D3B3B-F705-33FE-8640-F9BF2ABDD2F2"/>
+<colUsage columnID="858F90FE-4DD9-BCB8-C068-B15273280D5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47A64A62-CFBC-6DCE-E8DF-6183B858A343" name="Dnevno_PH_Salter_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>5BEE21FC-830B-9A08-3BB3-3B885E8FB30B</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="867D3B3B-F705-33FE-8640-F9BF2ABDD2F2"/>
+<colUsage columnID="858F90FE-4DD9-BCB8-C068-B15273280D5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="349ACA6E-6191-975F-4A98-7AE221A7CC1D" name="Dnevno_PH_Rad_u_menzi_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>5D9F2236-15C9-6E26-FD9A-053496A23473</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5AF6827A-DC98-5DA8-23E2-3265C886DBC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C055DD8E-558C-D9F5-1025-8AFB4FC3AA8B" name="Dnevno_PH_Obrok_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>425C908D-275D-52B8-45D1-959EC18E0282</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5C92CE1-A2BA-474E-5493-32D5358E4682"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

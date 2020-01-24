@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B89B2AD3-10CC-7F6A-7A41-DB3D0AFA6FD8" name="Salter">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>538FB6D2-9851-C879-0788-AE568DB00E12</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_sal" id="DB8FCE2A-64EF-C38C-AA18-546A2AFD743F">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>5178FF16-FE8E-4602-C839-D8A5A05FBC5D</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="res_id_res" id="4627F616-AE4C-AC03-CC29-22E3ACAAA79A">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>1E6C00BE-F7E6-7897-1723-C7387B2574DE</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1DE55A3-1218-6246-91F3-B2F8FC377355" referredColumn="77798DA8-8AA9-575F-DCCF-08441EF59A57"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="20DF7C0B-718F-CFB1-BECB-13397C882321" name="Salter_PK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>D93C3B4A-123D-E68F-EFD2-75F1C538B98A</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB8FCE2A-64EF-C38C-AA18-546A2AFD743F"/>
+<colUsage columnID="4627F616-AE4C-AC03-CC29-22E3ACAAA79A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD092291-698D-92C4-5227-ACBD3516D257" name="Salter_Restoran_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>BA3E476D-CDDB-BE07-AEC1-A74820754FA5</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4627F616-AE4C-AC03-CC29-22E3ACAAA79A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

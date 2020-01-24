@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3CB7584B-6946-76BC-C473-C2B3CF211F26" name="Stanje_na_kartici">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="stud_kartica_br_kar" id="27CA4A59-11B3-A57C-0E29-6D553C03B5CC">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C78C295-8427-9D1F-8FEA-9EBAF24F9E57" referredColumn="843FC48F-AEE5-6470-FD7F-0E2093066953"/>
+</associations>
+</Column>
+<Column name="ob_sifra_ob" id="96B525E9-2959-2ADD-F62B-665B0BFE3D79">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B9431F8-62B7-6FC0-6D89-3771CDE3E1B2" referredColumn="B6EDD238-52BC-1CB9-431E-3AF6399BAB73"/>
+</associations>
+</Column>
+<Column name="kol_kar" id="70666466-C249-8C3C-9580-EB1F0ED2EF15">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>382BE538-FFDF-FFDD-271F-81B9953CE91B</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A7B09BC3-C7AC-19DD-2701-6DFB503B117D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5524D22-91F9-2D20-04D9-B51B0DF090A9" name="Stanje_na_kartici_PK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27CA4A59-11B3-A57C-0E29-6D553C03B5CC"/>
+<colUsage columnID="96B525E9-2959-2ADD-F62B-665B0BFE3D79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4091A1D1-6431-443B-74B1-C89193390ECF" name="Stanje_Stud_kartica_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>A3F6AC47-8B85-07CE-5865-65A9F37E1DF3</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27CA4A59-11B3-A57C-0E29-6D553C03B5CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43953CA3-A373-FB50-1A32-02DDDE23D50E" name="Stanje_na_kartici_Obrok_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>A3F6AC47-8B85-07CE-5865-65A9F37E1DF3</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96B525E9-2959-2ADD-F62B-665B0BFE3D79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

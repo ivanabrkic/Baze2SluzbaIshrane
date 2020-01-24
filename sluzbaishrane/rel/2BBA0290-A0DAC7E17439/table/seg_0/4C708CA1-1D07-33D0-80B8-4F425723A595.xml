@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4C708CA1-1D07-33D0-80B8-4F425723A595" name="Racun">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>36B72C15-F206-6A1E-7E7D-656CC11E8459</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_rac" id="322A3505-D0B7-0C9D-6BE3-CBFB34AD01A5">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>E4CD2940-C972-641E-8DB2-1760E3AC0A43</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="uk_cena" id="26495A5D-AC81-AB99-7B56-6601F1A54100">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>48DF82C2-4A67-3A4A-6A36-C3B1A3C463EB</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<domain>584091EF-F0B0-76BE-849B-1BD838B9372C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dat_izd_rac" id="F48BF7B2-56C9-7D2C-A035-F620B1B91CD0">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>5422537D-6255-9336-45F7-8A6D2FF1039E</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>414A0033-11C2-E195-4AF8-BF50F3D00D17</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="radnik_u_SZUO_sifra_rad" id="07F3FB16-1555-4D1B-52CF-6C4DD3F862F0">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>048DC347-E729-AF29-9C3C-9A5CF6F4CF9A</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91EC15BB-88CF-CC0E-E142-B9A9954D97A6" referredColumn="75991A61-A695-8BDC-25C3-4C5AA06240BE"/>
+</associations>
+</Column>
+<Column name="kasa_id_kase" id="19D3BC68-FCF7-628A-308D-EA636D792E76">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>D6F76934-0887-9C3F-F7A0-919A1FBEC6E2</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="00A90D38-17D2-3C24-E5B6-45B55A27B1F7" referredColumn="4D432DF0-9B8F-8674-6820-5E648860C2C3"/>
+</associations>
+</Column>
+<Column name="stud_kartica_br_kar" id="4ADABBD1-B4BB-9753-B1CA-2E96D2E1305D">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>5286F663-EB97-1C58-6526-EFE2A8F09A27</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F10543D7-BDB4-81A0-9BEA-79E3F49175CE" referredColumn="843FC48F-AEE5-6470-FD7F-0E2093066953"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD079CA4-303E-2B59-888E-A9C3EE1ED9AA" name="Racun_PK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>B2ADA04B-B691-3DBE-BFC7-18B63C1F9CD0</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="322A3505-D0B7-0C9D-6BE3-CBFB34AD01A5"/>
+<colUsage columnID="19D3BC68-FCF7-628A-308D-EA636D792E76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D1CFD580-1F75-C045-31AF-A1C840324B45" name="Racun_Studentska_kartica_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>E4F0D6B2-1E63-1CF9-C65A-F2D2724FB68A</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4ADABBD1-B4BB-9753-B1CA-2E96D2E1305D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="303C9053-F913-23B5-87A5-7DA0274FAC12" name="Racun_Radnik_u_SZUO_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>87EF8221-FCD9-1FD3-520F-26E3BD73660C</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07F3FB16-1555-4D1B-52CF-6C4DD3F862F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D990282C-E6CC-C9B8-8A7B-D564E53FDBF5" name="Racun_Kasa_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>92523292-5B40-A0AF-A4C7-76C70AE80B3C</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19D3BC68-FCF7-628A-308D-EA636D792E76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

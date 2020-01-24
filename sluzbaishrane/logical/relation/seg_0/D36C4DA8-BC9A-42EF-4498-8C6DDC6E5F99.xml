@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Odnosi se" directorySegmentName="seg_0" id="D36C4DA8-BC9A-42EF-4498-8C6DDC6E5F99">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:17:36 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="519DCAD8-F3CB-6667-0270-03C9C60BC112" value="true"/>
+</engineerTo>
+<sourcePk>883CBA67-40B1-AA8A-64DD-B1670AB93A04</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3675B313-4CEE-14B1-3534-ED6F3F4018D1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>20609C91-957C-61EB-982D-01FA1B0FE681</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

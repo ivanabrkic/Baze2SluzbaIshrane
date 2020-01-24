@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C06CDF9-C113-A3EA-9471-E3D4974140B7" name="Smer">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:30:12 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sifra_smera" id="3EC6AB2C-C982-9A3D-1FF1-F17E3B4C706C">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:30:15 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naz_smera" id="EE8B14FC-AB49-D4F1-AC56-4E6562F52374">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:30:24 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>5E2229AC-3238-6D13-5AD1-F637C972883D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_fak" id="5C51C8A8-9215-C0C5-A45E-46E8832A3815">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:35:05 UTC</createdTime>
+<generatorID>4913767E-942E-E675-B831-7A5704417137</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<referedAttribute>08C6CB91-161A-1013-91E9-263AF86F232B</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_uni" id="4EC7F426-BB4A-B631-848D-FF62DC76F9AA">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:35:05 UTC</createdTime>
+<generatorID>4913767E-942E-E675-B831-7A5704417137</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<referedAttribute>5C391921-D1E5-ADAB-215C-3CC00343889E</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D018B461-5A47-3153-BB2C-EF936A0ADBC2" name="Smer PK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:30:26 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3EC6AB2C-C982-9A3D-1FF1-F17E3B4C706C</attributeRef>
+<attributeRef>5C51C8A8-9215-C0C5-A45E-46E8832A3815</attributeRef>
+<attributeRef>4EC7F426-BB4A-B631-848D-FF62DC76F9AA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

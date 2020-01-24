@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Stanje na kartici" directorySegmentName="seg_0" id="A3F6AC47-8B85-07CE-5865-65A9F37E1DF3">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:24:04 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="519DCAD8-F3CB-6667-0270-03C9C60BC112" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>D2EB0C1F-DBFC-44CF-D575-E8718DFE7AAD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E181B0E7-1BE5-DA46-8C84-4908D1C08F37</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="kol_kar" id="382BE538-FFDF-FFDD-271F-81B9953CE91B">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:24:40 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="519DCAD8-F3CB-6667-0270-03C9C60BC112" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A7B09BC3-C7AC-19DD-2701-6DFB503B117D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

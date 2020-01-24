@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="335F9042-CFE1-670B-6068-CD3D5E26EBA0" containerWithKeyObject="C36BEDD3-B8D6-4D48-2E0F-BB487E83BFB1" localFKIndex="47A64A62-CFBC-6DCE-E8DF-6183B858A343" name="Dnevno_PH_Salter_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>5BEE21FC-830B-9A08-3BB3-3B885E8FB30B</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<referredTableLongName>Salter</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B89B2AD3-10CC-7F6A-7A41-DB3D0AFA6FD8</referredTableID>
+<keyObject>20DF7C0B-718F-CFB1-BECB-13397C882321</keyObject>
+<referredKeyID>20DF7C0B-718F-CFB1-BECB-13397C882321</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_sal,res_id_res</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

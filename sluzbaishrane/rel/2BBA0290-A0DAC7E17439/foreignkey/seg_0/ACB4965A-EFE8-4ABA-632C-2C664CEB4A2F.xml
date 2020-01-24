@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ACB4965A-EFE8-4ABA-632C-2C664CEB4A2F" containerWithKeyObject="C36BEDD3-B8D6-4D48-2E0F-BB487E83BFB1" localFKIndex="349ACA6E-6191-975F-4A98-7AE221A7CC1D" name="Dnevno_PH_Rad_u_menzi_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>5D9F2236-15C9-6E26-FD9A-053496A23473</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<referredTableLongName>Radnik_u_menzi</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A6D7A6BB-2F1F-4F2C-AFA7-B7825277C190</referredTableID>
+<keyObject>5D326723-C50E-FE27-9EE6-DEE9F18219D0</keyObject>
+<referredKeyID>5D326723-C50E-FE27-9EE6-DEE9F18219D0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sifra_rad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

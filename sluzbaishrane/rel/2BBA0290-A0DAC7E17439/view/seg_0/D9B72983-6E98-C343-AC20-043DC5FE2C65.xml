@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="D9B72983-6E98-C343-AC20-043DC5FE2C65" name="Radnici_u_menzi">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 18:09:38 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<ordsAlias>view_20</ordsAlias>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT
+    radnik.jmbg_rad,
+    radnik.dat_rodj_rad,
+    radnik.ime_rad,
+    radnik.prez_rad,
+    radnik.si_id_si,
+    radnik_u_menzi.sifra_rad
+FROM
+         radnik_u_menzi
+    INNER JOIN radnik ON radnik.sifra_rad = radnik_u_menzi.sifra_rad]]></userDefinedSQL>
+<parsed>true</parsed>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="jmbg_rad" id="15237E35-B7A3-C809-9ED1-ECC44FBB62D3">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 18:10:11 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<headerAlias>jmbg_rad</headerAlias>
+<reference>false</reference>
+<referencedColumn>6060FACB-2A86-0285-BEB0-C27A703D0D9F</referencedColumn>
+<table>2EA8C762-B537-5543-BE1F-3ECE964B8BC1</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="dat_rodj_rad" id="A77B34A1-23E9-37F4-14C3-8B3678F2176F">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 18:10:11 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATE</dataType>
+<headerAlias>dat_rodj_rad</headerAlias>
+<reference>false</reference>
+<referencedColumn>2C043EDE-A63F-C1E4-4C5E-6167ACC5806E</referencedColumn>
+<table>2EA8C762-B537-5543-BE1F-3ECE964B8BC1</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ime_rad" id="261236D8-005C-71B8-0900-212B8F657B19">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 18:10:11 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (30 CHAR)</dataType>
+<headerAlias>ime_rad</headerAlias>
+<reference>false</reference>
+<referencedColumn>F41D1989-7610-D0C7-BD7A-D59359AAE3AA</referencedColumn>
+<table>2EA8C762-B537-5543-BE1F-3ECE964B8BC1</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="prez_rad" id="4F19CA6D-0D40-1C24-67B9-B3114D006960">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 18:10:11 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (30 CHAR)</dataType>
+<headerAlias>prez_rad</headerAlias>
+<reference>false</reference>
+<referencedColumn>546444D7-91A7-FC51-86D9-20DF7EF6B535</referencedColumn>
+<table>2EA8C762-B537-5543-BE1F-3ECE964B8BC1</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="si_id_si" id="E6DD61F8-7188-A17C-6928-C8B8781E40AD">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 18:10:11 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<headerAlias>si_id_si</headerAlias>
+<reference>false</reference>
+<referencedColumn>074E2469-C8F4-9DE3-A8B0-C3890BBCC9C2</referencedColumn>
+<table>2EA8C762-B537-5543-BE1F-3ECE964B8BC1</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="sifra_rad" id="9777C5C7-826B-BED1-60E4-8407D89BB45B">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-21 23:26:17 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<headerAlias>sifra_rad</headerAlias>
+<reference>false</reference>
+<referencedColumn>805DA154-696B-3FA7-3F23-B70623CD4914</referencedColumn>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="A6D7A6BB-2F1F-4F2C-AFA7-B7825277C190">
+<container>true</container>
+<tableName>Radnik_u_menzi</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="2EA8C762-B537-5543-BE1F-3ECE964B8BC1">
+<container>true</container>
+<tableName>Radnik</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="6060FACB-2A86-0285-BEB0-C27A703D0D9F">
+<columnName>JMBG_rad</columnName>
+<tableName>Radnik</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="2C043EDE-A63F-C1E4-4C5E-6167ACC5806E">
+<columnName>dat_rodj_rad</columnName>
+<tableName>Radnik</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="F41D1989-7610-D0C7-BD7A-D59359AAE3AA">
+<columnName>ime_rad</columnName>
+<tableName>Radnik</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="546444D7-91A7-FC51-86D9-20DF7EF6B535">
+<columnName>prez_rad</columnName>
+<tableName>Radnik</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="074E2469-C8F4-9DE3-A8B0-C3890BBCC9C2">
+<columnName>si_id_si</columnName>
+<tableName>Radnik</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="805DA154-696B-3FA7-3F23-B70623CD4914">
+<columnName>sifra_rad</columnName>
+<tableName>Radnik_u_menzi</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="6436F5C5-310C-66CC-A3AB-395E56119F02">
+<columnName>sifra_rad</columnName>
+<tableName>Radnik</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

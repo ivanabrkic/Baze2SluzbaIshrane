@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28CD1794-22E8-BF56-6DE5-350676935D16" name="Cenovnik">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>20609C91-957C-61EB-982D-01FA1B0FE681</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dat_pv" id="D3840381-F255-BB12-4DAF-3C3675FD2818">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>65A7A096-11D8-6D8A-9E21-850A70FB7C6A</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>414A0033-11C2-E195-4AF8-BF50F3D00D17</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dat_zv" id="5BE96A24-8C93-BF8B-BC75-0D1A4E9466E4">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>409CBD05-1B0F-CED2-340C-79B41310FC09</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>414A0033-11C2-E195-4AF8-BF50F3D00D17</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cena_ob" id="1C08486C-A5E6-4B6F-3ECF-7148F7BA413C">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>4C452672-199C-F811-95AF-641FE4A4A551</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<domain>584091EF-F0B0-76BE-849B-1BD838B9372C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ob_sifra_ob" id="30B7E4F1-07E0-DED0-4EA8-6C98D92274D8">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>BAC4B6B5-2BC9-3AA9-B4EC-D643A36E76C3</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A92C1C9A-4C42-454F-B1EB-B0E1B1336B31" referredColumn="B6EDD238-52BC-1CB9-431E-3AF6399BAB73"/>
+</associations>
+</Column>
+<Column name="status_stud_id_st" id="828E62EA-FB51-3099-C27D-F704E5B8E4DF">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>17CA2B34-E808-4699-0761-8C5F28945223</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2212F947-3838-DBDC-D040-419F6F9D923D" referredColumn="59EC8C90-C070-EA9F-1E2A-749E4A11F06E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9117B79B-C614-7799-4B03-03453CED88E9" name="Cenovnik_PK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>9EA489A4-45EB-8953-3F88-8C1CE4F0FF19</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3840381-F255-BB12-4DAF-3C3675FD2818"/>
+<colUsage columnID="30B7E4F1-07E0-DED0-4EA8-6C98D92274D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8EAA475-964B-D456-8AE9-0992124C9D0E" name="Cenovnik_Obrok_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>AB3113E6-D870-A393-5864-0FD9EF3646FF</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30B7E4F1-07E0-DED0-4EA8-6C98D92274D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="843687FE-1467-6DA4-B8CD-1F78241A7C0C" name="Cenovnik_Status_studenta_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>D36C4DA8-BC9A-42EF-4498-8C6DDC6E5F99</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="828E62EA-FB51-3099-C27D-F704E5B8E4DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,289 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D2EB0C1F-DBFC-44CF-D575-E8718DFE7AAD" name="Studentska kartica">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:00:27 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="br_kar" id="8EDF40AB-528C-56DB-CE40-08F9A40F4D3D">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:06:50 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ISIC_br" id="482469D6-4163-499B-B38B-5FFCA8296571">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:06:03 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>5E2229AC-3238-6D13-5AD1-F637C972883D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JMBG_stud" id="1979D3CE-8451-B227-AAE5-806FDD834FDA">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:05:58 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>E5D17B92-E191-5883-6FFF-C6EBA99D6683</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="br_ind" id="6B600F65-91A6-9100-9A39-0127CB06909F">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:01:25 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>5E2229AC-3238-6D13-5AD1-F637C972883D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="god_upisa" id="05B524CF-C9F1-F97F-F484-CF909BF48B96">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:01:37 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prez_stud" id="560094E2-DA93-1347-64E6-395A0D0E4A39">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:02:01 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>5E2229AC-3238-6D13-5AD1-F637C972883D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dat_rodj_stud" id="A8FBE2E1-ABF0-3331-9A55-8AC14EFACE50">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:02:08 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>414A0033-11C2-E195-4AF8-BF50F3D00D17</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dat_vaz_kar" id="2C13C371-012C-782A-866C-3425711F2CFF">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:02:15 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>414A0033-11C2-E195-4AF8-BF50F3D00D17</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ime_stud" id="D2CB349E-4633-8171-352A-9B09F431447C">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:05:51 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>5E2229AC-3238-6D13-5AD1-F637C972883D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dat_vadj_kar" id="0C4B221D-2CBD-B6A9-BC66-15AF971FEE3A">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:06:22 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>414A0033-11C2-E195-4AF8-BF50F3D00D17</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_st" id="AB690C6C-B005-7E67-60A0-D65C54A50455">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:19:00 UTC</createdTime>
+<generatorID>0C8872AE-0E12-CDBB-6F72-225508CB4612</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<referedAttribute>9CA32AC9-F7F0-DD14-5925-FCDAF8D81F5F</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_grada_MR" id="495160AE-517E-C861-63CF-0796D7234B75">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:32:56 UTC</createdTime>
+<generatorID>33C175FF-E388-F672-DB1E-444DD0952EC6</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<referedAttribute>5216B059-B7C7-B71E-948B-840A3C105CBD</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_drzave_MR" id="7C89FCDA-A743-A069-1A73-CA3EE67D16F4">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:32:56 UTC</createdTime>
+<generatorID>33C175FF-E388-F672-DB1E-444DD0952EC6</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<referedAttribute>3DD93537-A172-7B45-6C47-66F827D952A4</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_grada_MS" id="3E980E32-9683-6C6A-172F-96169CE6D75F">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:33:13 UTC</createdTime>
+<generatorID>94962437-5DF4-A9DE-8C21-F2889A504CAD</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<referedAttribute>5216B059-B7C7-B71E-948B-840A3C105CBD</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_drzave_MS" id="85E17F62-4C44-E99C-8E10-E9FC17DECFF9">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:33:13 UTC</createdTime>
+<generatorID>94962437-5DF4-A9DE-8C21-F2889A504CAD</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<referedAttribute>3DD93537-A172-7B45-6C47-66F827D952A4</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sifra_smera" id="54337C31-20AC-9329-DF3D-195E83B796FB">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:34:25 UTC</createdTime>
+<generatorID>48FE4635-AD06-A9B2-4E88-A4E18B766A97</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<referedAttribute>3EC6AB2C-C982-9A3D-1FF1-F17E3B4C706C</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_fak" id="39DEDD35-F0E7-EC8A-890F-0689FB9BEDCC">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:35:05 UTC</createdTime>
+<generatorID>48FE4635-AD06-A9B2-4E88-A4E18B766A97</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<referedAttribute>5C51C8A8-9215-C0C5-A45E-46E8832A3815</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_uni" id="F25D5257-DB80-3E2B-3857-A78E2763834A">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:35:05 UTC</createdTime>
+<generatorID>48FE4635-AD06-A9B2-4E88-A4E18B766A97</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<referedAttribute>4EC7F426-BB4A-B631-848D-FF62DC76F9AA</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="69D5B3B5-AFF2-8607-2FEA-BCA36CADEEAC" name="Studentska kartica PK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:06:08 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8EDF40AB-528C-56DB-CE40-08F9A40F4D3D</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="8B25EAE2-A234-94D4-CC3A-B385DB48CF57" name="ISIC broj kartice">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:09:55 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<newElementsIDs>482469D6-4163-499B-B38B-5FFCA8296571</newElementsIDs>
+<usedAttributes>
+<attributeRef>482469D6-4163-499B-B38B-5FFCA8296571</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="5D5FA016-CD14-1798-229A-D7604A0BC838" name="JMBG_stud">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:50:04 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<newElementsIDs>1979D3CE-8451-B227-AAE5-806FDD834FDA</newElementsIDs>
+<usedAttributes>
+<attributeRef>1979D3CE-8451-B227-AAE5-806FDD834FDA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

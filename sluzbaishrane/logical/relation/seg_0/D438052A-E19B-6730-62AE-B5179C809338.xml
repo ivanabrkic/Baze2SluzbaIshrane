@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Radi" directorySegmentName="seg_0" id="D438052A-E19B-6730-62AE-B5179C809338">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:45:41 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="519DCAD8-F3CB-6667-0270-03C9C60BC112" value="true"/>
+</engineerTo>
+<sourcePk>C8EFDC72-7A25-EA89-D54E-49ED6932E4E0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BD784BB8-C020-5EED-75CD-40C49CFFC7EE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5F142F8E-4D18-F01C-E1E2-9DBBABF5097F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

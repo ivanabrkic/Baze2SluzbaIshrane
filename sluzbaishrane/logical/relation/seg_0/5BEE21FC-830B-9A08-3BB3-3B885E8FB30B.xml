@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Gde" directorySegmentName="seg_0" id="5BEE21FC-830B-9A08-3BB3-3B885E8FB30B">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:30:08 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="519DCAD8-F3CB-6667-0270-03C9C60BC112" value="true"/>
+</engineerTo>
+<sourcePk>D93C3B4A-123D-E68F-EFD2-75F1C538B98A</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>538FB6D2-9851-C879-0788-AE568DB00E12</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>446939D4-A42F-5DA7-DFAB-412854F29CA9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

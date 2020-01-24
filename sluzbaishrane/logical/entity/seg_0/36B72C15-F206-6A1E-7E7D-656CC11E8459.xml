@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="36B72C15-F206-6A1E-7E7D-656CC11E8459" name="Racun">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:53:27 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_rac" id="E4CD2940-C972-641E-8DB2-1760E3AC0A43">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:53:36 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="uk_cena" id="48DF82C2-4A67-3A4A-6A36-C3B1A3C463EB">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:53:43 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<domain>584091EF-F0B0-76BE-849B-1BD838B9372C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dat_izd_rac" id="5422537D-6255-9336-45F7-8A6D2FF1039E">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:54:57 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>414A0033-11C2-E195-4AF8-BF50F3D00D17</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sifra_rad" id="048DC347-E729-AF29-9C3C-9A5CF6F4CF9A">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:12:53 UTC</createdTime>
+<generatorID>87EF8221-FCD9-1FD3-520F-26E3BD73660C</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<referedAttribute>70769F39-3F7C-3BD6-A7A5-17CC33B44CDC</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_kase" id="D6F76934-0887-9C3F-F7A0-919A1FBEC6E2">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:14:15 UTC</createdTime>
+<generatorID>92523292-5B40-A0AF-A4C7-76C70AE80B3C</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<referedAttribute>BAF2CF8F-40FF-FBB6-4D05-672CE6A87D1B</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="br_kar" id="5286F663-EB97-1C58-6526-EFE2A8F09A27">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:26:27 UTC</createdTime>
+<generatorID>E4F0D6B2-1E63-1CF9-C65A-F2D2724FB68A</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<referedAttribute>8EDF40AB-528C-56DB-CE40-08F9A40F4D3D</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B2ADA04B-B691-3DBE-BFC7-18B63C1F9CD0" name="Racun PK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:57:16 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E4CD2940-C972-641E-8DB2-1760E3AC0A43</attributeRef>
+<attributeRef>D6F76934-0887-9C3F-F7A0-919A1FBEC6E2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

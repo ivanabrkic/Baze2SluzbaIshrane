@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="712B270E-4D7B-10D8-833B-4AC874580A7B" name="Radnik_u_SZUO">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>FA1B76A3-47C8-1F01-219D-288F56CCD878</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<ordsAlias>radnik_u_sluzbi_za_uplatu_obroka</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sifra_rad" id="75991A61-A695-8BDC-25C3-4C5AA06240BE">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>70769F39-3F7C-3BD6-A7A5-17CC33B44CDC</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Radnik u SZUO_sifra_rad</notNullConstraintName>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+<associations>
+<colAssociation fkAssociation="0FAF52A1-EB33-3995-86B6-CCA6FA5D3F3E" referredColumn="6436F5C5-310C-66CC-A3AB-395E56119F02"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E4AC4D0-FF69-C2AB-B3EA-2D14D3F4004C" name="Radnik_u_SZUO_PK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>7A295858-25BF-A3E0-A654-2E031B0E37CC</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75991A61-A695-8BDC-25C3-4C5AA06240BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6734325B-CEEC-1D7A-708D-D985A9A5D141" name="Radnik u SZUO_Radnik_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>25493B4F-9150-30B5-2253-1EE1B171B87D</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75991A61-A695-8BDC-25C3-4C5AA06240BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

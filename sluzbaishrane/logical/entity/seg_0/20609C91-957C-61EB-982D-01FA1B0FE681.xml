@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="20609C91-957C-61EB-982D-01FA1B0FE681" name="Cenovnik">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:56:32 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dat_pv" id="65A7A096-11D8-6D8A-9E21-850A70FB7C6A">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:56:42 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>414A0033-11C2-E195-4AF8-BF50F3D00D17</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dat_zv" id="409CBD05-1B0F-CED2-340C-79B41310FC09">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:56:51 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>414A0033-11C2-E195-4AF8-BF50F3D00D17</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cena_ob" id="4C452672-199C-F811-95AF-641FE4A4A551">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:57:01 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<domain>584091EF-F0B0-76BE-849B-1BD838B9372C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sifra_ob" id="BAC4B6B5-2BC9-3AA9-B4EC-D643A36E76C3">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:16:32 UTC</createdTime>
+<generatorID>AB3113E6-D870-A393-5864-0FD9EF3646FF</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<referedAttribute>3E4C502C-1292-9305-6081-94B0C5F0EB2A</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_st" id="17CA2B34-E808-4699-0761-8C5F28945223">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 01:17:36 UTC</createdTime>
+<generatorID>D36C4DA8-BC9A-42EF-4498-8C6DDC6E5F99</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<referedAttribute>9CA32AC9-F7F0-DD14-5925-FCDAF8D81F5F</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9EA489A4-45EB-8953-3F88-8C1CE4F0FF19" name="Cenovnik PK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-19 00:56:50 UTC</createdTime>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<engineerTo>
+<item key="2BBA0290-9FA9-3DDF-DF4F-A0DAC7E17439" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>65A7A096-11D8-6D8A-9E21-850A70FB7C6A</attributeRef>
+<attributeRef>BAC4B6B5-2BC9-3AA9-B4EC-D643A36E76C3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

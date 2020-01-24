@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4D05DA05-CE72-A8B7-245C-CC7E2116D73C" name="Smer">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>8C06CDF9-C113-A3EA-9471-E3D4974140B7</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sifra_smera" id="641CF7EE-C9F6-4037-5872-41A23BFC85D7">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>3EC6AB2C-C982-9A3D-1FF1-F17E3B4C706C</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naz_smera" id="CB5618E9-22F9-F215-29B1-B6D8792E8DAC">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>EE8B14FC-AB49-D4F1-AC56-4E6562F52374</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>5E2229AC-3238-6D13-5AD1-F637C972883D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fak_id_fak" id="09FD82A4-D812-7694-D568-E6AAED116CDA">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>5C51C8A8-9215-C0C5-A45E-46E8832A3815</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EE3A28F-2B0C-CDE2-92E2-22E48C54A550" referredColumn="AAD12AE8-B70C-8530-0B94-70CD4A88425E"/>
+</associations>
+</Column>
+<Column name="fak_uni_id_uni" id="11918E2B-573A-5F4D-4DE2-620F2202ADB9">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>4EC7F426-BB4A-B631-848D-FF62DC76F9AA</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>5B164B14-4514-8F4B-6A04-7AC6C8EE8AE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EE3A28F-2B0C-CDE2-92E2-22E48C54A550" referredColumn="CC6CB0A3-F043-E983-F084-79E5884B629D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA1CD198-056F-5797-04DE-26359D475ABA" name="Smer_PK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:21 UTC</createdTime>
+<generatorID>D018B461-5A47-3153-BB2C-EF936A0ADBC2</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="641CF7EE-C9F6-4037-5872-41A23BFC85D7"/>
+<colUsage columnID="09FD82A4-D812-7694-D568-E6AAED116CDA"/>
+<colUsage columnID="11918E2B-573A-5F4D-4DE2-620F2202ADB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F3A5C11-6252-A488-B37B-8F6F00E6D4FA" name="Smer_Fakultet_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2020-01-20 16:31:22 UTC</createdTime>
+<generatorID>4913767E-942E-E675-B831-7A5704417137</generatorID>
+<ownerDesignName>sluzbaishrane</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09FD82A4-D812-7694-D568-E6AAED116CDA"/>
+<colUsage columnID="11918E2B-573A-5F4D-4DE2-620F2202ADB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
